@@ -1,0 +1,11 @@
+{
+    "project_name": "GraphRAG Assistant",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author_name": "Your Name",
+    "python_version": "3.11",
+    "license": ["MIT", "Apache-2.0", "GPL-3.0"],
+    "llm_model": ["meta-llama/Meta-Llama-3-70B-Instruct", "your‑custom‑HF‑repo"],
+    "neo4j_version": "5.15",
+    "lang_framework": ["LangChain", "LangGraph"],
+    "use_gpu": "y"
+  }
